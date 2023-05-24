@@ -8,7 +8,9 @@ export default function CategoriesScreen({ navigation }) {
     const width = Dimensions.get("window").width;
 
     function pressHandler() {
-      navigation.navigate("Meals Overview");
+      navigation.navigate("Meals Overview", {
+        categoryId: itemData.item.id,
+      });
     }
     return (
       <CategoryGridTile
