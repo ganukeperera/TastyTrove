@@ -32,7 +32,7 @@ export default function MealsDetailsScreen({ route, navigation }) {
 const styles = StyleSheet.create({
   image: {
     width: "100%",
-    height: 350,
+    height: 352,
   },
   title: {
     fontSize: 24,
